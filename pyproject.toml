@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rpm-metadata-parser"
+version = "0.1.0"
+description = "RPMv3 package metadata parser"
+authors = ["Mazzut"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

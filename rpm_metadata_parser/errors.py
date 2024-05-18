@@ -1,0 +1,2 @@
+class RpmParsingError(Exception):
+    pass
